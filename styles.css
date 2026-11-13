@@ -1,0 +1,16 @@
+
+.atlas-cowork { display:flex; flex-direction:column; height:100%; gap:8px; padding:8px; }
+.atlas-header { display:flex; align-items:center; gap:8px; }
+.atlas-title { font-weight:700; font-size:16px; }
+.atlas-context { color:var(--text-muted); font-size:11px; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.atlas-messages { flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:8px; padding-right:4px; }
+.atlas-msg { display:flex; flex-direction:column; max-width:100%; }
+.atlas-user { align-items:flex-end; }
+.atlas-assistant { align-items:flex-start; }
+.atlas-bubble { padding:8px 10px; border-radius:10px; background:var(--background-secondary); max-width:100%; overflow-wrap:anywhere; }
+.atlas-user .atlas-bubble { background:var(--interactive-accent); color:var(--text-on-accent); }
+.atlas-thinking { color:var(--text-muted); font-style:italic; }
+.atlas-actions { display:flex; gap:6px; margin-top:4px; }
+.atlas-mini { font-size:11px; padding:2px 8px; }
+.atlas-composer { display:flex; flex-direction:column; gap:6px; }
+.atlas-composer textarea { width:100%; resize:vertical; }
