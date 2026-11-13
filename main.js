@@ -154,7 +154,8 @@ class AtlasCoworkPlugin extends Plugin {
   onunload() {}
 
   async activateView() {
-    const leaf = this.app.workspace.getRightLeaf(false);
+    let leaf = this.app.workspace.getRightLeaf(false);
+    if (!leaf) leaf = this.app.workspace.getLeaf("tab");
     await leaf.setViewState({ type: VIEW_TYPE, active: true });
     this.app.workspace.revealLeaf(leaf);
   }

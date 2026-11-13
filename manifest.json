@@ -1,7 +1,7 @@
 {
   "id": "atlas-cowork",
   "name": "Atlas Cowork",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.5.0",
   "description": "AI cowork: chat with the project, brainstorm on canvas, write notes. Uses our Atlas model.",
   "author": "Park",
