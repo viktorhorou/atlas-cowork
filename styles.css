@@ -14,3 +14,6 @@
 .atlas-mini { font-size:11px; padding:2px 8px; }
 .atlas-composer { display:flex; flex-direction:column; gap:6px; }
 .atlas-composer textarea { width:100%; resize:vertical; }
+
+.atlas-toolbar { display:flex; flex-wrap:wrap; gap:6px; padding-bottom:4px; border-bottom:1px solid var(--background-modifier-border); }
+.atlas-quick-answer { margin-top:10px; max-height:45vh; overflow:auto; }
